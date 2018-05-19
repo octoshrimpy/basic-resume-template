@@ -1,6 +1,54 @@
 
 Heading and Contact Information
   >Name
+  >Subtitle
+  >Email
+  >Linked-in
+  >Phone number
+
+Education
+  >School
+  >Location
+  >Degree & Minor
+  >Graduation Date
+  >GPA
+  >Honors
+  >Deans List
+  -Number of Semesters
+
+Projects/Teams
+  >Project 1
+    -Time start/end
+    -Location
+    -Description 1
+    -Description 2
+    -Description 3
+  >Project 2
+    -Time start/end
+    -Location
+    -Description 1
+    -Description 2
+  >Team 1
+    -Title 1
+    -Time start/end 1
+    -Title 2
+    -Time start/end 2
+    -Description 1
+    -Description 2
+
+Leadership and Involvement
+  >Title 1
+    -Time start/end
+    -Description 1
+  >Title 2
+    -Time start/end
+  >Title 3
+    -Time start/end
+  >Organization 1
+    -Time start/end
+    -Description 1
+Heading and Contact Information
+  >Name
   >subtitle
   >email
   >linked-in
@@ -32,11 +80,14 @@ Projects/Teams
 Leadership and Involvement
   >Title 1
     -Time start/end
+    -Location
     -
   >Title 2
     -Time start/end
+    -Location
   >Title 3
     -Time start/end
+    -Location
   >Organization 1
       -Time start/end
 
@@ -44,6 +95,38 @@ Leadership and Involvement
 Work Experience
   >Job 1
     -Time start/end
+  >Job 2
+    -Time start/end
+  >Job 3
+    -Time start/end
+
+Skills
+  >Skill 1
+    -Description 1
+    -Skill level
+  >Skill 2
+    -Description 1
+    -Skill level
+  >Skill 3
+    -Description 1
+    -Skill level
+
+Awards and Honors
+  >Award 1
+    -Time
+    -Description 1
+  >Award 2
+    -Time
+    -Description 1
+  >Award 3
+    -Time
+    -Description 1
+
+Work Experience
+  >Job 1
+    -Time start/end
+    -Location
+    -
   >Job 2
     -Time start/end
   >Job 3
