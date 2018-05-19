@@ -7,18 +7,61 @@ Heading and Contact Information
   >phone number
 
 Education
-  >School/City
-  >Degree/Minor
+  >School
+  >City
+  >Degree & Minor
   >Graduation Date
   >GPA
 
 Projects/Teams
-  >Project
+  >Project 1
+    -Time start/end
     -Description 1
-    -Descript
+    -Description 2
+    -Description 3
+  >Project 2
+    -Time start/end
+    -Description 1
+    -Description 2
+  >Team 1
+    -Time start/end 1
+    -Time start/end 2
+    -Description 1
+    -Description 2
 
 Leadership and Involvement
+  >Title 1
+    -Time start/end
+    -
+  >Title 2
+    -Time start/end
+  >Title 3
+    -Time start/end
+  >Organization 1
+      -Time start/end
+
+
+Work Experience
+  >Job 1
+    -Time start/end
+  >Job 2
+    -Time start/end
+  >Job 3
+    -Time start/end
 
 Skills
+  >Skill 1
+    -Description 1
+  >Skill 2
+    -Description 1
+  >Skill 3
+    -Description 1
 
 Awards and Honors
+  >Award 1
+    -Time
+    -Description 1
+  >Award 2
+    -Description 1
+  >Award 3
+    -Description 1
