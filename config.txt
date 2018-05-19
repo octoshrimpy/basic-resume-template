@@ -1,145 +1,140 @@
 
-Heading and Contact Information
-  >Name
-  >Subtitle
-  >Email
-  >Linked-in
-  >Phone number
+Heading
+  Name
+  Subtitle
+  Contact Information
+    Email
+    Linked-in
+    Phone number
 
-Education
-  >School
-  >Location
-  >Degree & Minor
-  >Graduation Date
-  >GPA
-  >Honors
-  >Deans List
-  -Number of Semesters
 
-Projects/Teams
-  >Project 1
-    -Time start/end
-    -Location
-    -Description 1
-    -Description 2
-    -Description 3
-  >Project 2
-    -Time start/end
-    -Location
-    -Description 1
-    -Description 2
-  >Team 1
-    -Title 1
-    -Time start/end 1
-    -Title 2
-    -Time start/end 2
-    -Description 1
-    -Description 2
+Objective
+  Descriptions
+    Description
+    Description
+
 
 Education
     School
     City
-    Degree & Minor
+    Degree
     Graduation Date
     GPA
     Honors
+        Y/N
     Deans List
+        Y/N
         Number of Semesters
+
 
 Projects/Teams
     Project/Team
         Project/Team Info
             Project/Team Name
+            Project/Team Positions
             Time start/end
+            Location
         Descriptions
             Description
             Description
+
     Project/Team
         Project/Team Info
             Project/Team Name
+            Project/Team Positions
             Time start/end
+            Location
         Descriptions
             Description
             Description
+
 
 Leadership/Involvement
-    Position/Organization
-        Position/Club Info
-            Position/Club Name
+    Organization
+        Organization Info
+            Organization Name
+            Organization Position
             Time start/end
-        Descriptions
-            Description
-            Description
-    Position/Organization
-        Position/Organization Info
-            Position/Organization Name
-            Time start/end
+            Location
         Descriptions
             Description
             Description
 
+    Organization
+        Organization Info
+            Organization Name
+            Organization Position
+            Time start/end
+            Location
+        Descriptions
+            Description
+            Description
+
+
 Work Experience
-    Jobs
-        Job
-            Job Info
-                Job Name
-                Time Start/end
-            Responsibilities
-              Responsibility Description
-              Responsibility Description
-        Job
-            Job Info
-                Job Name
-                Time Start/end
-            Responsibilities
-              Responsibility Description
-              Responsibility Description
+    Job
+        Job Info
+            Title
+            Company
+            Time Start/end
+            Location
+        Descriptions
+            Description
+            Description
+    Job
+        Job Info
+            Title
+            Company
+            Time Start/end
+            Location
+        Descriptions
+            Description
+            Description
+
 
 Skills
     Skill
-        Description
-        Description
-    Skill
-        Description
-        Description
+        Skill Level
+        Descriptions
+            Description
+            Description
 
-Awards and Honors
-  Award/Honor
-    Award/Honor Name
-    Time
+    Skill
+        Skill Level
+        Descriptions
+            Description
+            Description
+
+
+Awards/Honors
+  Award
+    Award Name
+    Time Awarded
     Descriptions
       Description
       Description
-  >Award 2
-    -Time
-    -Description 1
-  >Award 3
-    -Time
-    -Description 1
 
-Work Experience
-  >Job 1
-    -Time start/end
-    -Location
-    -
-  >Job 2
-    -Time start/end
-  >Job 3
-    -Time start/end
+  Award
+    Award Name
+    Time Awarded
+    Descriptions
+      Description
+      Description
 
-Skills
-  >Skill 1
-    -Description 1
-  >Skill 2
-    -Description 1
-  >Skill 3
-    -Description 1
 
-Awards and Honors
-  >Award 1
-    -Time
-    -Description 1
-  >Award 2
-    -Description 1
-  >Award 3
-    -Description 1
+References
+    Contact
+        Name
+        Position
+        Company/Organization
+        Phone number
+        Email
+        Address
+
+    Contact
+        Name
+        Position
+        Company/Organization
+        Phone number
+        Email
+        Address
