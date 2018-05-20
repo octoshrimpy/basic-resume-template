@@ -1,0 +1,140 @@
+
+Heading
+  Name
+  Subtitle
+  Contact Information
+    Email
+    Linked-in
+    Phone number
+
+
+Objective
+  Descriptions
+    Description
+    Description
+
+
+Education
+    School
+    City
+    Degree
+    Graduation Date
+    GPA
+    Honors
+        Y/N
+    Deans List
+        Y/N
+        Number of Semesters
+
+
+Projects/Teams
+    Project/Team
+        Project/Team Info
+            Project/Team Name
+            Project/Team Positions
+            Time start/end
+            Location
+        Descriptions
+            Description
+            Description
+
+    Project/Team
+        Project/Team Info
+            Project/Team Name
+            Project/Team Positions
+            Time start/end
+            Location
+        Descriptions
+            Description
+            Description
+
+
+Leadership/Involvement
+    Organization
+        Organization Info
+            Organization Name
+            Organization Position
+            Time start/end
+            Location
+        Descriptions
+            Description
+            Description
+
+    Organization
+        Organization Info
+            Organization Name
+            Organization Position
+            Time start/end
+            Location
+        Descriptions
+            Description
+            Description
+
+
+Work Experience
+    Job
+        Job Info
+            Title
+            Company
+            Time Start/end
+            Location
+        Descriptions
+            Description
+            Description
+    Job
+        Job Info
+            Title
+            Company
+            Time Start/end
+            Location
+        Descriptions
+            Description
+            Description
+
+
+Skills
+    Skill
+        Skill Level
+        Descriptions
+            Description
+            Description
+
+    Skill
+        Skill Level
+        Descriptions
+            Description
+            Description
+
+
+Awards/Honors
+  Award
+    Award Name
+    Time Awarded
+    Descriptions
+      Description
+      Description
+
+  Award
+    Award Name
+    Time Awarded
+    Descriptions
+      Description
+      Description
+
+
+References
+    Contact
+        Name
+        Position
+        Company/Organization
+        Phone number
+        Email
+        Address
+
+    Contact
+        Name
+        Position
+        Company/Organization
+        Phone number
+        Email
+        Address
