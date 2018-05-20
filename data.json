@@ -1,0 +1,30 @@
+{
+  "heading": {
+    "name": "Marcos Jones",
+    "subtitle": "Frontend developer",
+    "email": "email.mail.com"
+  },
+
+  "objective": {
+
+  },
+
+  "jobs": {
+
+    "job-0":{
+      
+      "jobInfo": {
+        "title": "",
+        "company": "",
+        "times": "",
+        "location": ""
+      },
+
+      "descriptions": {
+        "desc-0": "",
+        "desc-1": "",
+        "desc-2": ""
+      }
+    }
+  }
+}
