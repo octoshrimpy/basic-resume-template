@@ -13,22 +13,33 @@ data.heading = {
   subtitle: "Frontend developer",
   email: 'hitlerdidnothingwrong@hotmail.com'
 };
+data.heading = {
+  loop: false,
+  name: "Marchos Jones",
+  subtitle: "Frontend developer",
+  email: 'hitlerdidnofingwrng@grandmamail.com'
+};
 
 data.objective = {
-  description: ""
+  loop: false,
+  descriptions:  {
+    description: ""
+  }
 };
 
 data.education = {
+  loop: false,
   school: "",
   city: "",
   degree: "",
   gradDate: "",
   gpa: "",
   honors: "",
-  deansList: "" // number of semesters
+  deansList:"" // number of semesters
 };
 
 data.projects = {
+  loop: true,
   projInfo: {
     projName: "",
     position: "",
@@ -41,6 +52,7 @@ data.projects = {
 };
 
 data.leadership = {
+  loop: true,
   organization: {
     organizationInfo: {
       organizationName: "",
@@ -55,6 +67,7 @@ data.leadership = {
 };
 
 data.work = {
+  loop: true,
   job: {
     jobInfo: {
       title: "",
@@ -69,29 +82,28 @@ data.work = {
 };
 
 data.skills = {
-  skills: {
-    skill: {
-      skillLevel: "",
-      descriptions: {
-        description: ""
-      }
+  loop: true,
+  skill: {
+    skillLevel: "",
+    descriptions: {
+      description: ""
     }
   }
 };
 
 data.awards = {
-  awards: {
-    award: {
-      awardName: "",
+  loop: true,
+  award: {
+    awardName: "",
       time: "",
       descriptions: {
         description: ""
-      }
     }
   }
 };
 
 data.references = {
+  loop: true,
   contact: {
     name: "",
     position: "",

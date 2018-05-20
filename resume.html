@@ -1,31 +1,31 @@
 <script id="resume-template" type="text/x-handlebars-template">
 
   <div class="heading">
-    <div class="name">{{heading.name}}</div>
-    <div class="subtitle">{{heading.subtitle}}</div>
+    {{#with heading}}
+    <div class="name">{{name}}</div>
+    <div class="subtitle">{{subtitle}}</div>
     <div class="contactinfo">
-      <div class="email">{{heading.email}}</div>
+      <div class="email">{{email}}</div>
       <div class="linked-in"></div>
       <div class="phone"></div>
     </div>
+    {{/with}}
   </div>
 
 
   <div class="objective">
-    <div class="description"></div>
+    <div class="description">{{objective.descriptions.description}}</div>
   </div>
 
 
   <div class="education">
-    <div class="school"></div>
-    <div class="city"></div>
-    <div class="degree"></div>
-    <div class="graduation-date"></div>
-    <div class="GPA"></div>
-    <div class="honors"></div>
-    <div class="deans-list">
-      <div class="semesters"></div>
-    </div>
+    <div class="school">{{education.name}}</div>
+    <div class="city">{{education.city}}</div>
+    <div class="degree">{{education.degree}}</div>
+    <div class="graduation-date">{{education.gradDate}}</div>
+    <div class="GPA">{{education.gpa}}</div>
+    <div class="honors">{{education.honors}}</div>
+    <div class="deans-list">{{education.deansList}}</div>
   </div>
 
 
@@ -33,28 +33,13 @@
 
     <div class="project">
       <div class="project-info">
-        <div class="project-name"></div>
-        <div class="positions"></div>
-        <div class="start-end"></div>
-        <div class="location"></div>
+        <div class="project-name">{{projects.projInfo.projName}}</div>
+        <div class="positions">{{projects.projInfo.position}}</div>
+        <div class="start-end">{{projects.projInfo.startEnd}}</div>
+        <div class="location">{{projects.projInfo.location}}</div>
       </div>
       <div class="descriptions">
-        <div class="description"></div>
-        <div class="description"></div>
-        <div class="description"></div>
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="projectinfo">
-        <div class="projectname"></div>
-        <div class="start-end"></div>
-        <div class="location"></div>
-      </div>
-      <div class="descriptions">
-        <div class="description"></div>
-        <div class="description"></div>
-        <div class="description"></div>
+        <div class="description">{{projects.descriptions.description}}</div>
       </div>
     </div>
 
@@ -65,27 +50,13 @@
 
     <div class="organization">
       <div class="organization-info">
-        <div class="organization-name"></div>
-        <div class="position"></div>
-        <div class="time-start-end"></div>
-        <div class="location"></div>
+        <div class="organization-name">{{leadership.organization.orgnizationInfo.organizationName}}</div>
+        <div class="position">{{leadership.organization.orgnizationInfo.position}}</div>
+        <div class="time-start-end">{{leadership.organization.orgnizationInfo.startEnd}}</div>
+        <div class="location">{{leadership.organization.orgnizationInfo.location}}</div>
       </div>
       <div class="descriptions">
-        <div class="description"></div>
-        <div class="description"></div>
-      </div>
-    </div>
-
-    <div class="organization">
-      <div class="organization-info">
-        <div class="organization-name"></div>
-        <div class="position"></div>
-        <div class="time-start-end"></div>
-        <div class="location"></div>
-      </div>
-      <div class="descriptions">
-        <div class="description"></div>
-        <div class="description"></div>
+        <div class="description">{{leadership.organization.descriptions.description}}</div>
       </div>
     </div>
 
@@ -96,68 +67,37 @@
 
     <div class="job">
       <div class="job-info">
-        <div class="title"></div>
-        <div class="company"></div>
-        <div class="time-start-end"></div>
-        <div class="location"></div>
+        <div class="title">{{work.job.jobInfo.title}}</div>
+        <div class="company">{{work.job.jobInfo.company}}</div>
+        <div class="time-start-end">{{work.job.jobInfo.startEnd}}</div>
+        <div class="location">{{work.job.jobInfo.location}}</div>
       </div>
       <div class="descriptions">
-        <div class="description"></div>
-        <div class="description"></div>
+        <div class="description">{{work.job.descriptions.description}}</div>
       </div>
     </div>
 
-    <div class="job">
-      <div class="job-info">
-        <div class="title"></div>
-        <div class="company"></div>
-        <div class="time-start-end"></div>
-        <div class="location"></div>
-      </div>
-      <div class="descriptions">
-        <div class="description"></div>
-        <div class="description"></div>
-      </div>
-    </div>
   </div>
 
 
   <div class="skills">
     <div class="skill">
-      <div class="skill-level"></div>
+      <div class="skill-level">{{skills.skill.skillLevel}}</div>
       <div class="descriptions">
-        <div class="description"></div>
-        <div class="description"></div>
+        <div class="description">{{skills.skill.descriptions.description}}</div>
       </div>
     </div>
 
-    <div class="skill">
-      <div class="skill-level"></div>
-      <div class="descriptions">
-        <div class="description"></div>
-        <div class="description"></div>
-      </div>
-    </div>
   </div>
 
 
   <div class="awards">
 
     <div class="award">
-      <div class="award-name"></div>
-      <div class="time"></div>
+      <div class="award-name">{{awards.award.awardName}}</div>
+      <div class="time">{{awards.award.time}}</div>
       <div class="descriptions">
-        <div class="description"></div>
-        <div class="description"></div>
-      </div>
-    </div>
-
-    <div class="award">
-      <div class="award-name"></div>
-      <div class="time"></div>
-      <div class="descriptions">
-        <div class="description"></div>
-        <div class="description"></div>
+        <div class="description">{{awards.award.descriptions.description}}</div>
       </div>
     </div>
 
@@ -167,24 +107,17 @@
   <div class="references">
 
     <div class="contact">
-      <div class="name"></div>
-      <div class="position"></div>
-      <div class="company"></div>
-      <div class="phone"></div>
-      <div class="email"></div>
-      <div class="address"></div>
-    </div>
-
-    <div class="contact">
-      <div class="name"></div>
-      <div class="position"></div>
-      <div class="company"></div>
-      <div class="phone"></div>
-      <div class="email"></div>
-      <div class="address"></div>
+      <div class="name">{{references.contact.name}}</div>
+      <div class="position">{{references.contact.position}}</div>
+      <div class="company">{{references.contact.company}}</div>
+      <div class="phone">{{references.contact.phone}}</div>
+      <div class="email">{{references.contact.email}}</div>
+      <div class="address">{{references.contact.address}}</div>
     </div>
 
   </div>
+
+
 </script>
 <script type='text/javascript' src='./js/lib/jquery.3.3.1.min.js'></script>
 <script type='text/javascript' src='./js/lib/handlebars.min-latest.js'></script>
