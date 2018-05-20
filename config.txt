@@ -24,8 +24,6 @@ Education
         Y/N
     Deans List
         Y/N
-        Number of Semesters
-
 
 Projects/Teams
     Project/Team
