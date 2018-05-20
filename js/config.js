@@ -9,6 +9,11 @@
 var data = new Object();
 
 data.heading = {
+  name: "Marchos Jones",
+  subtitle: "Frontend developer",
+  email: 'hitlerdidnothingwrong@hotmail.com'
+};
+data.heading = {
   loop: false,
   name: "Marchos Jones",
   subtitle: "Frontend developer",
