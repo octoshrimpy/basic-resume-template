@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function() {
   //Retrieve the template data from the HTML .
   var source = $('#resume-template').html();
 
