@@ -5,26 +5,67 @@
     "email": "email.mail.com"
   },
 
-  "objective": {
-
-  },
-
-  "jobs": {
-
-    "job-0":{
-      
-      "jobInfo": {
-        "title": "",
-        "company": "",
-        "times": "",
-        "location": ""
-      },
-
-      "descriptions": {
-        "desc-0": "",
-        "desc-1": "",
-        "desc-2": ""
-      }
+  "objective": "this is an objective",
+  "education":[
+    {
+      "school": "school",
+      "location": "city RO",
+      "degree":"degree",
+      "grad-date": "graduation date",
+      "gpa": "gpa",
+      "honors": "honors",
+      "deanslist": "explanation deans list"
     }
-  }
+  ],
+  "jobs": [
+    {
+      "jobInfo": {
+        "title": "job 1",
+        "company": "company",
+        "dates": {
+          "start": "200",
+          "end": "400"
+        },
+        "location": "foo RO"
+      },
+      "descriptions": [
+        "did so and so",
+        "did more of this",
+        "did some of that"
+      ],
+      "projects": [
+        "made thing",
+        "improved morale"
+      ]
+    },
+    {
+      "jobInfo": {
+        "title": "job 2",
+        "company": "company",
+        "dates": ["200", "400"],
+        "location": "foo RO"
+      },
+      "descriptions": [
+        "did so and so",
+        "did more of this",
+        "did some of that"
+      ],
+      "projects": [
+        "made thing",
+        "improved morale"
+      ]
+    }
+  ],
+  "skills":[
+    "skill 1","skill 2"
+  ],
+  "references":[
+    {
+      "name": "",
+      "phone": "",
+      "email": "",
+      "company": "",
+      "position": ""
+    }
+  ]
 }
