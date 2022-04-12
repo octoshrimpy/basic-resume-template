@@ -2,13 +2,30 @@
   "heading": {
     "name": "Marcos Jones",
     "subtitle": "Frontend developer",
-    "email": "email.mail.com"
+    "email": "email.mail.com",
+    "linkedin": "linkedin link",
+    "phone": "phone number",
+    "portfolios": [
+      {"codepen": "codepen link"},
+      {"github": "github link"},
+      {"figma": "figma link"},
+      {"website":"website link"}
+    ]
   },
 
   "objective": "this is an objective",
   "education":[
     {
       "school": "school",
+      "location": "city RO",
+      "degree":"degree",
+      "grad-date": "graduation date",
+      "gpa": "gpa",
+      "honors": "honors",
+      "deanslist": "explanation deans list"
+    },
+    {
+      "school": "other school",
       "location": "city RO",
       "degree":"degree",
       "grad-date": "graduation date",

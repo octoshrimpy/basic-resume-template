@@ -1,0 +1,92 @@
+<link rel="stylesheet" href="styling/main.css">
+
+<script id="resume-template" type="text/x-handlebars-template">
+
+  <section class="heading">
+    <div class="name">{{heading.name}}</div>
+    <div class="subtitle">{{heading.subtitle}}</div>
+    <div class="reachout">
+      <div class="email">{{heading.email}}</div>
+      <div class="linked-in">{{heading.linkedin}}</div>
+      <div class="phone">{{heading.phone}}</div>
+    </div>
+  </section>
+
+
+  <section class="objective">
+    <div class="description">{{objective}}</div>
+  </section>
+
+  <section class="educations">
+    {{#each education}}
+      <div class="education">
+        <div class="school">{{this.school}}</div>
+        <div class="location">{{this.location}}</div>
+        <div class="degree">{{this.degree}}</div>
+        <div class="grad-date">{{this.grad-date}}</div>
+        <div class="honors">{{this.honors}}</div>
+        <div class="deanslist">{{this.deanslist}}</div>
+      </div>
+    {{/each}}
+  </section>
+
+  <section class="jobs">
+    {{#each jobs}}
+      <div class="job">
+        <div class="title">{{this.title}}</div>
+        <div class="company">{{this.company}}</div>
+        <div class="location">{{this.jobInfo.location}}</div>
+
+        <div class="dates">
+            <div class="date1">
+              {{this.jobInfo.dates.start}}
+            </div>
+            <div class="date2">
+              {{this.jobInfo.dates.end}}
+            </div>
+        </div>
+
+        <div class="descriptions">
+          {{#each this.descriptions}}
+            <div class="description">
+              {{this}}
+            </div>
+          {{/each}}
+        </div>
+
+        <div class="projects">
+          {{#each this.projects}}
+            <div class="project">
+              {{this}}
+            </div>
+          {{/each}}
+        </div>
+      </div>
+    {{/each}}
+  </section>
+
+  <section class="skills">
+    {{#each skills}}
+      <div class="skill">{{this}}</div>
+    {{/each}}
+  </section>
+
+  <section class="references">
+    {{#each references}}
+      <div class="reference">
+        <div class="name">{{this.name}}</div>
+        <div class="company">{{this.company}}</div>
+        <div class="position">{{this.position}}</div>
+        <div class="phone">{{this.phone}}</div>
+        <div class="email">{{this.email}}</div>
+      </div>
+    {{/each}}
+  </section>
+
+
+
+  </div>
+</script>
+<script type='text/javascript' src='./js/lib/jquery.3.3.1.min.js'></script>
+<script type='text/javascript' src='./js/lib/handlebars.min-latest.js'></script>
+<script type='text/javascript' src='./js/config.js'></script>
